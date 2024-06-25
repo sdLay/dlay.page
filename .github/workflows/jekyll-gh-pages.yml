@@ -37,8 +37,6 @@ jobs:
           destination: ./ap/_site
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
-        with:
-          path: ./ap/_site
 
   # Deployment job
   deploy:
